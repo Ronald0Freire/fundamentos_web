@@ -1,0 +1,81 @@
+body {
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(0, 217, 255));
+  }
+
+.text-center {
+    text-align: center;
+}
+
+.text-arial {
+    font-family: Arial;
+}
+
+.img-tm {
+    width: auto;
+    height: 300px;
+}
+
+#titulo {
+    text-decoration: underline;
+}
+
+.menu li {
+    display: inline;
+    padding: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu a:hover {
+    color: gray;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.p-50 {
+    padding: 50px;
+}
+
+.p-30 {
+    padding: 30px;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+.p-mw {
+    max-width: 600px;
+}
+
+.tm-icon {
+    height: 50px;
+    width: auto;
+}
+
+.form-flex {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.mb-10 {
+    margin-bottom:  10px;
+}
+
+.tm-btn {
+    width: fit-content;
+    height: fit-content;
+}

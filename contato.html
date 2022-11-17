@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <header>
+    <div class="menu">
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="contato.html">Fale com Ashtar Sheran</a>
+            </li>
+        </ul>
+    </div>
+</header>
+
+    <h1 class="p-50"></h1>
+
+    <div class="container">
+        <div class="p-30">
+            <form class="form-flex ">
+                <h1>Entre em contato conosco!</h1>
+                <label for="Nome"></label>
+                <input type="text" name="nome" placeholder="Digite seu nome: " id="nome" onkeyup="validaNome()">
+                <div class="p-10" id="erroNome"></div>
+                
+
+                <label for="Email"></label>
+                <input type="email" name="email" placeholder="Digite seu email: " id="email" onkeyup="validaEmail()">
+                <div class="p-10" id="erroEmail"></div>
+
+                <label for="Assunto"></label>
+                <textarea name="assunto" id="assunto" cols="30" placeholder="Digite a sua mensagem: " rows="10" onkeyup="validaAssunto()"></textarea>
+                <div class="p-10" id="erroAssunto"></div>
+
+                <button class="tm-btn" onclick="valida()">Enviar</button>
+            </form>
+        </div>
+
+        <div class="p-30">
+            <form class="form-flex ">
+            <h2>Conheça o nosso templo</h2>
+            <p>Localizado em Vargem Grande</p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7346.103934666139!2d-43.49232672346121!3d-22.98511643988809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bdd62123a3945%3A0x2ea15a42097de097!2sEstr.%20dos%20Bandeirantes%20-%20Vargem%20Pequena%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2022783-550!5e0!3m2!1spt-BR!2sbr!4v1667913894842!5m2!1spt-BR!2sbr"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </form>
+
+        </div>
+    </div>
+
+    <hr>
+
+    <footer class="text-center p-20">
+
+        <div class="container">
+            <a href="https://facebook.com/" target="_blank">
+                <img class="tm-icon p-10" src="assets/img/facebook.png" alt="facebook">
+            </a>
+            <a href="http://www.instagram.com/" target="_blank">
+                <img class="tm-icon p-10" src="assets/img/instagram.png" alt="instagram">
+            </a>
+            <a href="https://www.linkedin.com/" target="_blank">
+                <img class="tm-icon p-10" src="assets/img/linkedin.png" alt="linkedin">
+            </a>
+        </div>
+
+        Todos os direitos reservados pela frota estelar &copy
+
+    </footer>
+
+<script src="/js/script.js"></script>
+</body>
+
+</html>
