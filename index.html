@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Zelda</title>
+</head>
+
+<body style="background-image: linear-gradient(to right, rgb(238, 255, 0), black)">
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/img/Zelda-ocarina-logo.webp" width="70" height="70" alt="Simbolo Dynasty Warriors">
+            </a>
+        </nav>
+        <a class="navbar-brand" href="#">The Legend of Zelda</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+            aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(página atual)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Produtos</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Nossos funcionarios <span class="sr-only">(página atual)</span></a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Categorias
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#"></a>
+                        <a class="dropdown-item" href="#">Outra ação</a>
+                        <a class="dropdown-item" href="#">Outra ação</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Algo mais aqui</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Desativado</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+            </form>
+        </div>
+    </nav>
+    <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="./assets/img/zelda-capa.jpg" alt="Primeiro Slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="./assets/img/zelda-ft1.jpg" alt="Segundo Slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="./assets/img/zelda-ft2.jpg" alt="Terceiro Slide">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
+    </div>
+
+    <div class="card-deck col-12 mt-5">
+        <div class="card">
+            <img class="card-img-top" src="./assets/img/zelda-capa.jpg" height="175px" alt="Imagem de capa do card">
+            <div class="card-body">
+                <h5 class="card-title" style="text-align: center">Sinopse</h5>
+                <p class="card-text">Link é um jovem da floresta que vê seu lar em perigo e parte em uma jornada para deter um rei maligno e salvar o reino de Hyrule! 
+                    Para completar sua missão, ele terá que encontrar a princesa Zelda e ajudar outros povos para reunir a Triforce e restabelecer o equilíbrio do mundo!
+                </p>
+                <div style="width: 100%" class="d-flex justify-content-center">
+                    <!-- Botão para acionar modal -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalExemplo">
+                        Ver resumo
+                    </button>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Princesa Zelda? Malon? Ou talvez uma Gerudo? </h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <img  class ="w-100" src="./assets/img/zelda-link-surpreso.jpg"
+                                    alt="Tres Reinos">
+                                <p>Tudo o que foi abordado nessa matéria não passa de uma teoria criada a partir de elementos que existem nos games e no mangá da 
+                                    franquia Zelda. Não há nada de oficial nessa história e dificilmente saberemos se é verdadeira ou não. Porém, ao ligar os pontos 
+                                    de que Link de OoT com certeza teve um filho, com a vida rural do protagonista de TP e a quedinha de Malon pelo Herói do Tempo, 
+                                    fica bastante plausível que esse relacionamento realmente pode ter existido.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="modalExemplo2" tabindex="-1" role="dialog"
+                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Princesa Zelda? Malon? Ou talvez uma Gerudo? </h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img  class ="w-100" src="./assets/img/zelda-unreal.png"
+                                alt="Tres Reinos">
+                            <p>Um fã está recriando The Legend of Zelda: Ocarina of Time em 4K na Unreal Engine 5, da Epic Games, e o resultado está ficando simplesmente incrível.
+
+                                O projeto está sendo compartilhado no canal RwanLink no YouTube, onde é possível acompanhar todo o progresso do trabalho, que visa dar um tom cinematográfico à aventura de Link e Navi em Hyrule.
+                                
+                                Na gravação, que você pode conferir logo abaixo, o criador do projeto explica o árduo processo de recriar as animações individuais de Link, bem como toda a pesquisa feita sobre locações reais. 
+                                O objetivo é deixar o resultado final com visual mais realista.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">Atualizados 3 minutos atrás</small>
+            </div>
+        </div>
+
+        <div class="card">
+            <img class="card-img-top" src="./assets/img/zelda-card1.jpg"
+                alt="Imagem de capa do card">
+            <div class="card-body">
+                <h5 class="card-title" style="text-align: center">O romance</h5>
+                <p class="card-text">Os romances de Link...</p>
+                <div style="width: 100%" class="d-flex justify-content-center">
+                    <!-- Botão para acionar modal -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalExemplo">
+                        Ver resumo
+                    </button>
+                </div>
+
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">Atualizados 3 minutos atrás</small>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="./assets/img/zelda-card2.jpg"
+                alt="Imagem de capa do card">
+            <div class="card-body">
+                <h5 class="card-title" style="text-align: center">Notícias</h5>
+                <p class="card-text">Veja Zelda: Ocarina of Time recriado em 4K na Unreal Engine 5</p>
+                <div style="width: 100%" class="d-flex justify-content-center">
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalExemplo2">
+                        Ver resumo
+                    </button>
+                </div>
+
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">Atualizados 3 minutos atrás</small>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <div class="row border rounded">
+          <div class="col">
+            <h2 style="color: white;">Cadastre-se</h2>
+            <form>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label style="color: white;" for="inputEmail4">Email</label>
+                  <input type="email" class="form-control" id="inputEmail" placeholder="Email" onkeyup="validaEmail()">
+                  <div class="mb-10" id="erroEmail" style="color: red"></div>
+                </div>
+                <div class="form-group col-md-6">
+                  <label style="color: white;" for="inputPassword4">Senha</label>
+                  <input type="password" class="form-control" id="inputPassword" placeholder="Senha" onkeyup="validaSenha()">
+                  <div class="mb-10" id="erroSenha" style="color: red"></div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label style="color: white;" for="inputAddress">Endereço</label>
+                <input type="text" class="form-control" id="inputEndereco" placeholder="Rua..., nº 0" onkeyup="validaEndereco()">
+                <div class="mb-10" id="erroEndereco" style="color: red"></div>
+              </div>
+              <div class="form-group">
+                <label style="color: white;" for="inputAddress2">Complemento</label>
+                <input type="text" class="form-control" id="inputComplemento" placeholder="Apartamento, Casa, etc." onkeyup="validaComplemento()">
+                <div class="mb-10" id="erroComplemento" style="color: red"></div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label style="color: white;" for="inputCity">Cidade</label>
+                  <input type="text" class="form-control" id="inputCidade" placeholder="Rio de Janeiro" onkeyup="validaCidade()">
+                  <div class="mb-10" id="erroCidade" style="color: red"></div>
+                </div>
+                <div class="form-group col-md-4">
+                  <label style="color: white;" for="inputEstado">Estado</label>
+                  <input type="text" class="form-control" id="inputEstado" placeholder="RJ" onkeyup="validaEstado()">
+                  <div class="mb-10" id="erroEstado" style="color: red"></div>
+                </div>
+                <div class="form-group col-md-2">
+                  <label style="color: white;" for="inputCEP">CEP</label>
+                  <input type="text" class="form-control" id="inputCep" placeholder="00000-000" onkeyup="validaCep()">
+                  <div class="mb-10" id="erroCep" style="color: red"></div>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label" for="gridCheck">
+                    Verificar
+                  </label>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-danger" onclick="valida()">Cadastrar</button><br><br>
+            </form>
+          </div>
+          <div class="col">
+            <h2 style="color: white;">
+              Onde estamos?
+            </h2>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.369741942873!2d-43.18680178503384!3d-22.936606334996682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997f91e2ab7719%3A0xa8587b0b00bad709!2sEst%C3%A1dio%20Presidente%20Manoel%20Schwartz!5e0!3m2!1spt-BR!2sbr!4v1669039546981!5m2!1spt-BR!2sbr"
+              width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe><br>
+          </div>
+        </div>
+
+    <footer class="text-center text-white" style="background-color: #f1f1f1;">
+        <script src="js/script.js"></script>
+        <!-- Grid container -->
+        <div class="container pt-4">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <a target="_blank" href="http://facebook.com">
+                    <img src="assets/img/facebook.png" alt="icone facebbok" height="40px" width="40px">
+                </a>
+                <a target="_blank" href="http://twitter.com">
+                    <img src="assets/img/instagram.png" alt="icone twitter" height="40px" width="40px">
+                </a>
+                <a target="_blank" href="http://twitter.com">
+                    <img src="assets/img/twitter.png" alt="icone youtube" height="40px" width="40px">
+                </a>
+            </section>
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2022 Copyright:
+            <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- <div style="margin-top: 10rem">
+        <ul class="nav flex-column">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Comidas Típicas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Coisas afins</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Mas alguma coisa</a>
+              </li>
+            </ul>
+        </ul>
+      </div> -->
+</body>
+
+</html>
